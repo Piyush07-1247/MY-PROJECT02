@@ -1,4 +1,9 @@
-const rolesLocal = [
+const rolesLocal = [ 
+  - const img_url = `https://source.unsplash.com/featured/640x360/?${keyword}`;
+- const bg_url  = img_url;
++const img_url = `https://source.unsplash.com/640x360/?${keyword}&auto=format&fit=crop&sig=${i}`;
++const bg_url  = `https://source.unsplash.com/1280x720/?${keyword}&auto=format&fit=crop&sig=${i}`;
+
   {
     "id": "ai-ethics-&-policy-specialist",
     "title": "AI Ethics & Policy Specialist",
