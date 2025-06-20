@@ -13,5 +13,15 @@ export default function RoleCard({ role }){
         </Link>
       </div>
     </div>
+    <img
+  src={role.image}
+  alt={role.title}
+  className="h-40 w-full object-cover"
++ onError={e => {
++   e.currentTarget.onerror = null;        // prevent infinite loop
++   e.currentTarget.src = '/fallback.jpg'; // put any jpg in /public
++ }}
+/>
+
   );
 }
